@@ -1,20 +1,21 @@
 .page-content { background: white; }
 
 .index-pane, .left-pane, .right-pane, .alt-pane { padding-top: 12px }
-.index-pane { margin-top: 12px; }
-.left-pane, .right-pane { padding-bottom: 64px; padding-left: 32px; background: #f8f8f8; }
-.alt-pane {}
 
 .index-pane {
-    .navbar { max-width: 120px; }
+    .navbar { max-width: 120px; margin-top: 12px; }
+}
+
+.left-pane {
+    padding-bottom: 64px; padding-left: 32px; background: #f8f8f8;
 }
 
 .right-pane {
-    background: #E6EEF4; padding-left: 32px;
+    background: #E6EEF4; padding-left: 32px; padding-bottom: 64px;
 }
 
 .alt-pane {
-    margin: 0; padding: 0;
+    margin: 0; padding: 0 0 64px 0;
     ul {
         padding: 0 8px;
         li {

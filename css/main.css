@@ -46,25 +46,23 @@ footer {
 .alt-pane {
   padding-top: 12px;
 }
-.index-pane {
+.index-pane .navbar {
+  max-width: 120px;
   margin-top: 12px;
 }
-.left-pane,
-.right-pane {
+.left-pane {
   padding-bottom: 64px;
   padding-left: 32px;
   background: #f8f8f8;
 }
-.index-pane .navbar {
-  max-width: 120px;
-}
 .right-pane {
   background: #E6EEF4;
   padding-left: 32px;
+  padding-bottom: 64px;
 }
 .alt-pane {
   margin: 0;
-  padding: 0;
+  padding: 0 0 64px 0;
 }
 .alt-pane ul {
   padding: 0 8px;
