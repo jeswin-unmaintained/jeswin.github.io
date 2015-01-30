@@ -1,0 +1,12 @@
+.more-link {
+  text-align: center;
+  float: right;
+  background: #80a3bd;
+  border-radius: 12px;
+  margin: 2em 2em 0 0;
+  padding: .1em 1em .2em 1em;
+}
+.more-link a {
+  color: white;
+  font-size: 11px;
+}
