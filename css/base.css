@@ -15,11 +15,6 @@ h5,
 h6 {
   line-height: 1.3em;
 }
-h4,
-h5,
-h6 {
-  font-weight: bold;
-}
 .navbar nav {
   font-size: 12px;
   font-weight: bold;
